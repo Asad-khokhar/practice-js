@@ -1,0 +1,672 @@
+body
+{
+    background-color: #100c1c;
+    font-family: arial;
+    font-size: 14px;
+    color: #ccc;
+    letter-spacing: 0.2px;
+}
+
+#page-wrap
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header
+{
+    height: 180px;
+    margin-bottom: 10px;
+}
+.logo
+{
+    padding-top: 72px;
+    margin-bottom: 10px;
+}
+.top-nav ul li
+{
+    float: left;
+    margin-right: 20px;
+}
+.top-nav ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.top-nav ul li a:hover
+{
+    color: #d71400;
+}
+#main-content
+{
+    margin-bottom: 365px;
+}
+#left-content
+{
+    width: 662px;
+    float: left;
+}
+.page-info h1
+{
+    color: #d71400;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.page-info p
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.posters ul li
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#sidebar
+{
+    width: 310px;
+    float: right;
+}
+.sneak-preview, .ads
+{
+    margin-bottom: 10px;
+}
+.ads-1
+{
+    width: 150px;
+    float: left;
+}
+.ads-2
+{
+    width: 150px;
+    float: right;
+}
+#footer-col-one
+{
+    width: 315px;
+    float: left;
+    margin-right: 20px;
+}
+#footer-col-two
+{
+    width: 315px;
+    float: left;
+}
+.footer-info h2
+{
+    color: #ccc;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-info h2 span
+{
+    color: #d71400;
+}
+.footer-info h3
+{
+    color: #d71400;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.footer-info p.datetime
+{
+    color: #8e8e8e;
+    margin-bottom: 10px;
+}
+.footer-info p
+{
+    color: #ccc;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.footer-info p a
+{
+    color: #d71400;
+    text-decoration: none;
+}
+.footer-info p a:hover
+{
+    text-decoration: underline;
+}
+#footer-col-three
+{
+    width: 310px;
+    float: right;
+}
+.footer-nav ul li
+{
+    margin-bottom: 10px;
+}
+.footer-nav ul li a
+{
+    color: #ccc;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-nav ul li a:hover
+{
+    color: #d71400;
+}
+#copyrights p
+{
+    color: #8e8e8e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/******************************************************************************************************
+        SINGLE CONTRIBUTION PAGE STYLE.
+*******************************************************************************************************/
+
+
+
+
+.contribution-thumb
+{
+   background-color: #fff;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.contribution-details
+{
+
+    width: 487px;
+    float: right;
+}
+
+.contribution-details h2
+{
+    color: #d71400;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contribution-details ul li
+{
+     color: #fff;
+     font-size: 16px;
+     margin-bottom: 10px;
+}
+.contribution-details ul li span
+{
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+}
+
+.contribution-details ul li span.about
+{
+    width: 400px;
+}
+
+
+/******************************************************************************************************
+        CONTACT US PAGE STYLE.
+*******************************************************************************************************/
+
+.forms h2
+{
+    color: #d71400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.forms ul li
+{
+    margin-bottom: 10px;
+}
+.textfields, .textarea
+{
+    width: 587px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.textarea
+{
+    height: 120px;
+    resize: none;
+}
+.btns
+{
+    background-color: #d71400;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+::placeholder {
+  color: black;
+  opacity: 1; 
+}
+/******************************************************************************************************
+        SUBSCRIPTION PAGE STYLE.
+*******************************************************************************************************/
+
+.subscription-forms ul li
+{
+    color: #fff;
+    font size: 18px;
+}
+.subscription-forms ul li:nth-child(13)
+{
+    border-bottom: 1px solid #474551;
+}
+.subscription-forms ul li:nth-child(14)
+{
+    font-size: 12px;
+}
+
+
+/******************************************************************************************************
+        HOME PAGE STYLE.
+*******************************************************************************************************/
+
+.home-poster
+{
+    width: 315px;
+    float: left;
+}
+.home-poster h2
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #d71400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home-poster p, .mini-poster ul li p
+{
+    font-size: 16px;
+    line-height: 20px;
+}
+.home-poster p a
+{
+    color: #d71400;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.home-poster p a:hover
+{
+    text-decoration: underline;
+}
+.mini-poster
+{
+    width: 315px;
+    float: right;
+}
+.mini-poster ul li
+{
+    margin-bottom: 10px;
+}
+
+
+/******************************************************************************************************
+        BANNER PAGE STYLE.
+*******************************************************************************************************/
+
+.main-banner
+{
+    margin-bottom: 50px;
+}
+.main-banner h2
+{
+    text-transform: uppercase;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    color: #fff;
+    font-size: 22px;
+}
+.main-banner p
+{
+    font-size: 14px;
+    line-height: 20px;
+}
+.main-banner p a
+{
+    text-decoration: none;
+    color: #d71400;
+}
+.main-banner p a:hover
+{
+    text-decoration: underline;
+}
+.banner
+{
+    position: relative;
+}
+.social-icon
+{
+    position: absolute;
+    bottom: 0;
+    left: -65px;
+}
+.main-banner h3
+{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #fff;
+}
+.main-banner ul
+{
+    margin-bottom: 10px;
+    border-top:  1px solid #474551;
+}
+.main-banner ul li p
+{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: -3px;
+    color: #c1c0c3;
+}
+
+.ads h1
+{
+    color: #d71400;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.ads-1, .ads-2
+{
+    margin-bottom: 5px;
+}
+
+/******************************************************************************************************
+        ADVERTISE PAGE STYLE.
+*******************************************************************************************************/
+
+.advertise p
+{
+    color: #9b99a2;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.advertise h2
+{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.advertise ul li
+{
+    color: #9b99a2;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.advertise ul li span
+{
+    display: inline-block;
+    width: 190px;
+}
+.advertise h3
+{
+    color: #d71400;
+    font-size: 24px;
+    margin-top: 65px;
+    margin-bottom: 10px;
+}
+
+/******************************************************************************************************
+        BLOG PAGE STYLE.
+*******************************************************************************************************/
+
+#blog-main-content
+{
+    background-color: #fff;
+}
+.left-blog
+{
+    width: 752px;
+    float: left;
+}
+
+.side-blog
+{
+    width: 185px;
+    float: left;
+}
+.side-blog ul
+{
+    margin-bottom: 24px;
+}
+.side-blog img
+{
+    padding-left: 8px;
+    padding-top: 20px;
+}
+
+.side-blog h1
+{
+    font-size: 32px;
+    color: #b93c40;
+    margin-left: 23px;
+    margin-top: 63px;
+    letter-spacing: 0.5px;
+}
+.side-blog ul li img
+{
+    margin-left: 14px;
+    margin-top: -22px;
+}
+.side-blog ul li h2
+{
+    color: #d71400;
+    font-size: 24px;
+    margin-left: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.side-blog ul li p
+{
+    color: black;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+.side-blog ul li p a
+{
+    text-decoration: none;
+    color: #d71400;
+    margin-bottom: 10px;
+}
+.side-blog ul li p a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.side-blog ul li p img.arrow
+{
+    margin-left: -10px;
+}
+.main-blog
+{
+    width: 545px;
+    float: right;
+}
+.main-blog ul
+{
+    margin-bottom: 50px;
+}
+.main-blog ul li h1
+{
+    color: #d71400;
+    font-size: 34px;
+    margin-top: 5px;
+}
+.main-blog ul li p.italic
+{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #717171;
+    font-style: italic;
+    line-height: 26px;
+}
+.main-blog ul li p
+{
+    margin-top: 10px;
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+}
+.main-blog ul li p a
+{
+    text-decoration: none;
+    color: #d71400;
+}
+.main-blog ul li p a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.right-blog
+{
+    width: 220px;
+    float: right;
+}
+.right-blog h1
+{
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #b93c40;
+    margin-top: 26px;
+}
+.right-blog h2
+{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #b93c40;
+    margin-top: 50px;
+}
+.right-blog ul
+{
+    margin-bottom: 24px;
+}
+.right-blog ul li img
+{
+    margin-bottom: 10px;
+}
+.right-blog ul li p
+{
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.right-blog ul li p span 
+{
+    color: #d71400;
+}
+.right-last-image
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.bottom-nav
+{
+    background-image: url(../images/bottom.png);
+    width: 1000px;
+    height: 6px;
+    margin-bottom: 200px;
+}
+.nav-left
+{
+    width: 207px;
+    float: left;
+    margin-bottom: 20px;
+}
+.nav-right p
+{
+    font-size: 22px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+.nav-right
+{
+    width: 213px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.nav-left p 
+{
+    font-size: 22px;
+    color: #fff;
+    margin-left: 32px;
+    margin-top: 22px;
+}
+.footer-nav ul li
+{
+    margin-bottom: 10px;
+}
+.footer-nav h2
+{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer-nav p
+{
+    color: #d71400;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.footer-nav p a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-nav p a:hover
+{
+    text-decoration: underline;
+    color: #d71400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

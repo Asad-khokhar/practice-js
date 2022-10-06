@@ -1,0 +1,597 @@
+
+
+@font-face {
+  font-family: miriam-libre;
+  src: url('../fonts/miriam-libre/MiriamLibre-Regular.ttf');
+}
+
+body
+{
+	color: #333;
+	font-size: 14px;
+	font-family: miriam-libre;
+	letter-spacing: 0.2px;
+}
+.page-wrap
+{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.col-left
+{
+	width: 626px;
+	float: left;
+}
+.col-right
+{
+	width: 300px;
+	float: right;
+}
+.logo
+{
+	padding-top: 44px;
+}
+.searcharea
+{
+	padding-top: 44px;
+}
+.searchfield
+{
+	width: 300px;
+	height: 30px;
+	padding-left: 10px;
+	outline: none;
+	border: 1px solid #fff;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e6e6e6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e6e6e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+
+}
+#inner-header
+
+{
+	background-color: #181818;
+	height: 124px;
+}
+nav
+{
+	background: #38b8d5; /* Old browsers */
+	background: -moz-linear-gradient(top,  #38b8d5 0%, #1ba1c7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #38b8d5 0%,#1ba1c7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #38b8d5 0%,#1ba1c7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38b8d5', endColorstr='#1ba1c7',GradientType=0 ); /* IE6-9 */
+	height: 70px;
+}
+.top-nav ul
+{
+	line-height: 70px;
+}
+.top-nav ul li
+{
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: url('../images/li-divider.jpg') no-repeat;
+}
+.top-nav ul li a
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #1481b1;
+}
+.top-nav ul li:hover
+{
+	background-color: #000;
+	-webkit-border-radius: 5px;
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-bottom-left-radius: 50px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-topright: 50px;
+	-moz-border-radius-bottomleft: 50px;
+	border-radius: 5px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+
+	transition: all 0.5s ease;
+
+}
+#divider
+{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#38b8d5+0,04638e+0,0668af+100 */
+	background: #38b8d5; /* Old browsers */
+	background: -moz-linear-gradient(top,  #38b8d5 0%, #04638e 0%, #0668af 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #38b8d5 0%,#04638e 0%,#0668af 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #38b8d5 0%,#04638e 0%,#0668af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38b8d5', endColorstr='#0668af',GradientType=0 ); /* IE6-9 */
+	height: 20px;
+}
+
+#main-content
+{
+	background-image: url('../images/body-bg.jpg');
+	height: 794px;
+}
+.page-info h1
+{
+	padding-top: 40px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 0 #fff;
+
+}
+.projects ul li h2
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #39b9d6;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 0 #fff;
+
+}
+.projects ul li
+{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.projects ul li img
+{
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+footer
+{
+	background-color: #181818;
+	height: 400px;
+}
+.footer-info h2
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+.footer-fields, .footer-textarea
+{
+	width: 580px;
+	height: 30px;
+	border: 1px solid #fff;
+	outline: none;
+	padding-left: 10px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e6e6e6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e6e6e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+}
+.footer-textarea
+{
+	height: 175px;
+	resize: none;
+}
+
+.footer-form ul li
+{
+	margin-bottom: 10px;
+}
+
+
+.footer-social-icons ul li
+{
+	color: #999999;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.footer-social-icons ul li span
+{
+	display: inline-block;
+	width: 40px;
+	vertical-align: middle;
+}
+
+.footer-divider
+{
+	background: url('../images/footer-divider.jpg');
+	height: 2px;
+	margin-bottom: 20px;
+}
+
+.copyrights p
+{
+	color: #999999;
+	margin-bottom: 10px;
+}
+.copyrights p a
+{
+	color: #39b9d6;
+	text-decoration: none;
+}
+.copyrights p a:hover
+{
+	text-decoration: underline;
+}
+
+/****************************************************
+	CONTACT PAGE STYLE.
+*****************************************************/
+.contact-form ul li
+{
+	margin-bottom: 10px;
+}
+.contact-form ul li span
+{
+	display: inline-block;
+	width: 65px;
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+.contact-form ul li:last-child
+{
+	text-align: right;
+	margin-right: 40px;
+}
+.contact-fields, .contact-textarea
+{
+	width: 505px;
+	height: 30px;
+	border: 1px solid #e6e6e6;
+	outline: none;
+}
+.contact-textarea
+{
+	height: 246px;
+	resize: none;
+}
+.contact-btns
+{
+	background-color: #f1f1f1;
+	border: none;
+	color: #39b9d6;
+	text-decoration: underline;
+}
+
+.map
+{
+	margin-bottom: 10px;
+}
+
+address p
+{
+	margin-bottom: 10px;
+}
+.contact-info ul li
+{
+	margin-bottom: 5px;
+}
+.contact-info ul li span
+{
+	display: inline-block;
+	width: 80px;
+}
+.contact-info ul li a
+{
+	color: #39b9d6;
+	text-decoration: none;
+}
+
+.contact-info ul li a:hover
+{
+	text-decoration: underline;
+}
+
+/****************************************************
+	COMPANY PAGE STYLE.
+*****************************************************/
+
+.main-management
+{
+	width: 303px;
+	float: left;
+}
+.management
+{
+	margin-bottom: 30px;
+}
+.management-thumb
+{
+	width: 80px;
+	float: left;
+}
+.management-details
+{
+	width: 206px;
+	float: right;
+}
+.management-details p:first-child
+{
+	color: #909090;
+}
+.management-details h2, .business-info h2
+{
+	color: #39b9d6;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #fff;
+	margin-bottom: 5px;
+}
+.management-details p
+{
+	color: #333;
+}
+
+.main-business
+{
+	width: 587px;
+	float: right;
+}
+.business-col-one
+{
+	width: 275px;
+	float: left;
+}
+
+.business-col-two
+{
+	width: 266px;
+	float: right;
+}
+.business-info img
+{
+	margin-bottom: 5px;
+}
+.business-info p, .main-business p
+{
+	line-height: 20px;
+}
+.business-info ul li
+{
+	margin-bottom: 10px;
+	background: url('../images/arrow.jpg') no-repeat;
+	padding-left: 20px;
+}
+
+/****************************************************
+	SERVICES PAGE STYLE.
+*****************************************************/
+
+
+.services-col-one
+{
+	width: 282px;
+	float: left;
+}
+.services
+{
+	margin-bottom: 12px;
+}
+.services-col-two
+{
+	width: 296px;
+	float: left;
+	margin-left: 37px;
+}
+.services-col-three
+{
+	width: 283px;
+	float: right;
+}
+.services-thumb 
+{
+	width: 83px;
+	float: left;
+}
+.services-details
+{
+	width: 185px;
+	float: right;
+}
+.services-details h2
+{
+	color: #39b9d6;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.services-details p
+{
+	color: black;
+	line-height: 20px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.services-details p a
+{
+	text-decoration: none;
+	color: #39b9d6;
+}
+
+.services-details p a:hover
+{
+	text-decoration: underline;
+}
+.add-service
+{
+	margin-top: -30px;
+}
+.add-service-thumb
+{
+	width: 217px;
+	float: left;
+}
+.add-service-details
+{
+	width: 390px;
+	float: right;
+}
+.add-service-details p
+{
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.add-service-details ul li
+{
+	background: url('../images/arrow.jpg')	no-repeat ;
+	margin-bottom: 10px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+.add-service-info ul li h2
+{
+	color: #39b9d6;
+	font-size: 20px;
+	font-weight: bold;
+}
+.add-service-info ul li span:first-child
+{
+	display: inline-block;
+	width: 70px;
+	vertical-align: top;
+	padding-top: 5px;
+
+}
+.add-service-info ul li span.works
+{
+	display: inline-block;
+	width: 220px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.add-service-info ul li
+{
+	margin-bottom: 10px;
+}
+
+
+/**************************************************************************
+		HOME PAGE STYLE.
+***************************************************************************/
+
+.home-img-bg
+{
+	background-image: url('../images/home-slider-img-bg.jpg');
+	height: 392px;
+}
+.home-img
+{
+	padding-top: 50px;
+	padding-right: 20px;
+}
+.main-home
+{
+	width: 593px;
+	float: left;
+	margin-top: 80px;
+}
+.home-info p
+{
+	color: #999999;
+	font-size: 15px;
+	font-style: italic;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+
+.home-info p span
+{
+	color: #39b9d6;
+}
+.left-home 
+{
+	margin-top: 80px;
+	float: right;
+	width: 300px;
+}
+.left-details p
+{
+	line-height: 20px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.left-details p a
+{
+	font-size: 14px;
+	color: #39b9d6;
+	text-decoration: none;
+}
+.left-details p a:hover
+{
+	text-decoration: underline;
+}
+
+.home-service-col-one
+{
+	width: 252px;
+	float: left;
+}
+.home-service-col-two
+{
+	width: 255px;
+	float: right;
+}
+.home-thumb
+{
+	width: 89px;
+	float: left;
+}
+.home-details
+{
+	width: 152px;
+	float: right;
+}
+
+.home-details p
+{
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	color: #333333;
+}
+.home-details p span
+{
+	font-style: normal;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.home-service p.para
+{
+	padding-top: 100px;
+	font-style: normal;
+	font-size: 11px;
+	color: #333;
+}
+.home-service p.para span
+{
+	text-decoration: underline;
+	color: #333;
+}
+.home-service p a
+{
+	text-decoration: none;
+	color: #39b9d6;
+	font-size: 14px;
+	font-style: normal;
+}
+.home-service p a:hover
+{
+	text-decoration: underline;
+}
+.home-service p a span
+{
+	color: #333;
+}
+

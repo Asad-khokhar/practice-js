@@ -1,0 +1,164 @@
+@font-face {
+	font-family: montserrat;
+	src: url(../fonts/Montserrat-Regular.otf);
+}
+
+nav	{
+	margin-top: 40px;
+	margin-bottom: 37px;
+}
+.logo ul li {
+	float: left;
+	margin-right: 10px;
+}
+.logo ul li:last-child {
+	padding-top: 20px;
+}
+.nav_items {
+	padding-top: 20px;
+	text-align: right;
+}
+
+.slideshow {
+	position: relative;
+	margin-bottom: 20px;
+}
+.available {
+	position: absolute;
+	top: -30px;
+	right: -40px;
+}
+
+.product-bg {
+	background: url("../images/product_promo_bg.jpg");
+	height: 180px;
+	margin-bottom: 114px;
+}
+
+.product-bg h2 {
+	text-transform: uppercase;
+	font-family: montserrat;
+	font-weight: normal;
+	text-align: center;
+	color: #5b5a5b;
+	text-shadow: 1px 1px 1px #c8c8ca;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.product-bg p {
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+
+footer {
+	background-color: #222223;
+	height: 400PX;
+	position: relative;
+}
+
+
+.about, .blog, .help, .twitter {
+	position: absolute;
+	top: -60px;
+}
+
+.footer-col p
+{
+	font-family: arial;
+	font-size: 14px;
+	color: #5e775e;
+	margin-bottom: 10px;
+	width: 200px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+.footer-col
+{
+	background: url('../images/company_promo_bg.png');
+	margin-top: 40px;
+}
+
+
+.footer-col h2 {
+	padding-top: 105px;
+	color: #c1c1c2;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	font-weight: normal;
+	font-family: montserrat;
+	text-transform: uppercase;
+}
+.form
+{
+	margin-top: 40px;
+	margin-left: 10px;
+	position: relative;
+}
+.mail-icon
+{
+	position: absolute;
+	top: -10px;
+	left: -50px;
+}
+.form p
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: -40px;
+	margin-left: 60px;
+}
+.form p span
+{
+	color: #3d3d40;
+	font-weight: normal;
+}
+.text-field
+{
+	width: 300px;
+	height: 30px;
+	padding-left: 10px;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #939393;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e6e6e6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e6e6e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+}
+.form ul li
+{
+	margin-left: 525px;
+	margin-top: -25px;
+}
+.form ul li.button
+{
+	margin-top: -38px;
+	margin-left: 850px;
+}
+.btns
+{
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e55455+0,a13233+100 */
+	background: #e55455; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e55455 0%, #a13233 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #e55455 0%,#a13233 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #e55455 0%,#a13233 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55455', endColorstr='#a13233',GradientType=0 ); /* IE6-9 */
+	text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    width: 76px;
+    border-radius: 8px;
+	border: 2px solid #939393;
+    
+}
